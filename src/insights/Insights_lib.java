@@ -24,7 +24,7 @@ public class Insights_lib {
 	public Insights_lib(){
 		service = new PersonalityInsights("2016-10-19");
 		IamOptions iamOptions = new IamOptions.Builder()
-			    .apiKey("LcGK18BQhzKvuimTX-vo9LxWfNMUhGO1D0JBSvrOpxKT")
+			    .apiKey("1618042")
 			    .build();
 		service.setIamCredentials(iamOptions);
 	}
